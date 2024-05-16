@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Fontes e variáveis */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75,300..800;1,75,300..800&family=Roboto:wght@100;300;400;900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /*!
 * Bootstrap  v5.3.3 (https://getbootstrap.com/)
 * Copyright 2011-2024 The Bootstrap Authors
@@ -12100,12 +12100,24 @@ textarea.form-control-lg {
 }
 
 /* RESET */
+* {
+  font-size: "Roboto", sans-serif;
+}
+
 body {
   color: #343A40;
 }
 
 a {
   text-decoration: none !important;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.fb-root {
+  margin: 30px 0;
 }
 
 /* END RESET */
@@ -12218,9 +12230,11 @@ nav.nav-produtos ul.nav li ul.nav li {
   margin-right: 25px;
 }
 
+/* Estrelas estão em produtos. */
 .produtos {
   padding: 0;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .produtos h3 {
   margin-bottom: 35px;
@@ -12243,7 +12257,13 @@ nav.nav-produtos ul.nav li ul.nav li {
   margin: 0;
 }
 .produtos button {
-  margin: 20px 0 40px;
+  margin: 0 0 40px;
+}
+
+.estrelas svg {
+  font-size: 18px;
+  color: #FFC107;
+  margin: 0;
 }
 
 .fut {
@@ -12258,6 +12278,65 @@ nav.nav-produtos ul.nav li ul.nav li {
 }
 .fut li:last-child {
   margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  header.container-fluid {
+    padding: 12px;
+  }
+  header.container-fluid ul li {
+    margin: 7px;
+  }
+}
+@media (max-width: 767px) {
+  header.container-fluid {
+    padding: 10px 10px 0;
+  }
+  header.container-fluid header {
+    padding: 0 auto !important;
+  }
+  header.container-fluid a {
+    margin-bottom: 15px;
+  }
+  header.container-fluid ul.col-md-3 {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .banners article {
+    padding: 0;
+  }
+  .banners article p {
+    font-size: 20px;
+  }
+  .banners article .b12x {
+    justify-content: center;
+  }
+  .banners article .b12x svg {
+    margin: 25px 25px 25px 0;
+  }
+  .banners article .btodobr {
+    justify-content: center;
+  }
+  .banners article .btodobr svg {
+    margin: 25px 25px 25px 0;
+  }
+  .carousel {
+    display: none;
+  }
+  .produtos {
+    justify-content: center;
+  }
+}
+.breadcrumb {
+  margin: 20px 0 30px;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+
+/* Página principal de compra de produto */
+.compra p:last-child {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

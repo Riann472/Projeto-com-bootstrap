@@ -1,0 +1,60 @@
+@media( max-width: 991px){
+    header.container-fluid{
+      padding: 12px;
+      ul{
+        li{
+          margin: 7px;
+        }
+      }
+    }
+  }
+  
+  @media(max-width: 767px){
+    header.container-fluid{
+      padding: 10px 10px 0;
+      header{
+        padding: 0 auto !important;
+      }
+      a{
+        margin-bottom: 15px;
+      }
+      ul.col-md-3{
+        margin-top: 20px;
+        justify-content: center;
+      }
+      
+    }
+    .banners{
+        article{
+            p{
+                font-size: 20px;
+            }
+            
+            padding: 0;
+            .b12x{
+                justify-content: center;
+                svg{
+                    margin: 25px 25px 25px 0;
+                }
+               
+            }
+            .btodobr{
+                justify-content: center;
+                svg{
+                    margin: 25px 25px 25px 0;
+                }
+            }
+          
+        }
+
+    }
+    .carousel{
+        display: none;
+    }
+    .produtos{
+      justify-content: center;
+    }
+  }
+
+   
+    

@@ -1,16 +1,25 @@
 /* Fontes e variáveis */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75,300..800;1,75,300..800&family=Roboto:wght@100;300;400;900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import './bootstrap.min.scss';
 
 
 @import './variaveis.scss';
 /* RESET */
+*{
+  font-size: 'Roboto', sans-serif;
+}
 body{
     color: $cor-secundaria;
   }
   a{
     text-decoration: none !important;
   }
+  h1, h2, h3{
+    font-weight: bold;
+  }
+.fb-root{
+margin: 30px 0;
+}
   
   /* END RESET */
 
@@ -19,5 +28,10 @@ body{
 /* Bootstrap */
 @import './nav.scss';
 @import './banners.scss';
+/* Estrelas estão em produtos. */
 @import './produtos.scss';
 @import './footer.scss';
+@import './responsive.scss';
+@import './breadcrumbs.scss';
+/* Página principal de compra de produto */
+@import './compra.scss';

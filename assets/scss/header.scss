@@ -2,7 +2,8 @@
 
 header{
   background-color: $cor-primaria;
-  padding: 25px ;
+  padding: 25px;
+
   form{
     position: relative;
     input[type="text"]{
@@ -43,5 +44,6 @@ header{
       }
     }
   }
+
 }
 

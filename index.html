@@ -37,8 +37,8 @@
         <!-- Navbar -->
         <article class="row d-flex align-items-center ">
           <!-- Logo -->
-          <a href="#" class="col-md-2">
-            <img src="./assets/img/logo.svg" alt="Logo da empresa - Moda da Mulher">
+          <a href="#" class="col-md-2 d-flex justify-content-center">
+            <img src="./assets/img/logo.svg" class="img-fluid" alt="Logo da empresa - Moda da Mulher">
           </a>
           <!-- Fim da Logo -->
           <!-- Buscador -->
@@ -80,7 +80,7 @@
     <nav class="container-fluid nav-produtos">
       <section class="container">
           <ul class="nav">
-            <li class="nav-item col-md-2 d-flex align-items-center">
+            <li class="nav-item col-lg-2 col-12 d-flex align-items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
               </svg>
@@ -94,7 +94,7 @@
                 <li class="nav-item"><a href="#">Promoção</a></li>
               </ul>
             </li>
-            <li class="nav-item col-md-2 d-flex align-items-center">
+            <li class="nav-item col-lg-2 col-12 d-flex align-items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
               </svg>
@@ -106,7 +106,7 @@
     <!-- End navegação -->
     <main>
       <!-- Carrousel -->
-    <section id="carouselExample" class="container carousel slide" style="padding: 0;">
+    <section id="carouselExample" class="container carousel slide " style="padding: 0;">
       <article class="carousel-inner">
         <figure class="carousel-item active">
           <img src="assets/img/banner-1.jpg" class="d-block w-100" alt="...">
@@ -153,8 +153,8 @@
     <!-- Produtos -->
     <section class="container produtos">
       <center><h3>Mais populares</h3></center>
-      <div class="row produtos">
-        <div class="produto col-md-3">
+      <div class="row produtos d-flex">
+        <div class="produto col-xl-3 col-md-6">
           <img src="assets/img/cropped-rosa.jpg" style="width: auto;" alt="">
           <h5>Cropped Rosa</h5>
           <div class="estrelas">
@@ -176,8 +176,8 @@
         </div>
         <p>R$59,90</p>
       </div>
-      <div class="produto col-md-3">
-        <img src="assets/img/camiseta-manga-comprida.jpg" alt="">
+      <div class="produto col-xl-3 col-md-6">
+        <a href="mangacomprida.html"><img src="assets/img/camiseta-manga-comprida.jpg" alt="Manga Comprida"></a>
         <h5>Camiseta manga comprida</h5>
         <div class="estrelas">
           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor"
@@ -203,7 +203,7 @@
         </div>
         <p>R$79,90</p>
       </div>
-      <div class="produto col-md-3">
+      <div class="produto col-xl-3 col-md-6">
         <img src="assets/img/camiseta-listrada.jpg" alt="">
         <h5>Camiseta listrada</h5>
         <div class="estrelas">
@@ -230,7 +230,7 @@
         </div>
         <p>R$49,90</p>
       </div>
-      <div class="produto col-md-3">
+      <div class="produto col-xl-3 col-md-6">
         <img src="assets/img/saia-plisada.jpg" alt="">
         <h5>Saia plisada</h5>
         <div class="estrelas">
@@ -259,7 +259,7 @@
       </div>
 
     </div>
-<center>    <button type="button" class="btn btn-warning col-md-2">VEJA MAIS</button></center>
+<center>   <a href="vejamais.html"> <button type="button" class="btn btn-warning col-md-2">VEJA MAIS</button></a></center>
 
     </section>
   </main>
@@ -314,7 +314,7 @@
                 <a href="#">Cropped rosa</a>
               </li>
               <li class="nav-item">
-                <a href="#">Camiseta manga comprida</a>
+                <a href="mangacomprida.html">Camiseta manga comprida</a>
               </li>
               <li class="nav-item">
                 <a href="#">Camiseta listrada</a>
