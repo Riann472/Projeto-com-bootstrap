@@ -1,0 +1,33 @@
+.banners{
+    margin: 30px auto;
+    p{
+        margin: 0;
+        font-size: 23px;
+    }
+    article:first-child{
+        padding-left: 0;
+    }
+    article:nth-child(2){
+        padding-right: 0;
+    }
+
+
+    .b12x{
+        background-color: $rosa;
+        background-image: url('../img/parcele-em-12x.jpg')
+    }
+    .btodobr{
+        background-color: $roxo;
+        background-image: url('../img/background-entrega.jpg')
+    }
+    .b12x, .btodobr{
+        color: #fff;
+        background-size: cover;
+        height: 105px;
+        svg{
+            margin-left: 62px;
+            margin-right: 25px;
+        }
+    }
+    
+}

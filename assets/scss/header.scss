@@ -1,0 +1,49 @@
+
+
+header{
+  background-color: $cor-primaria;
+  padding: 25px;
+
+  form{
+    position: relative;
+    input[type="text"]{
+      width: 100%;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 20px;
+    }
+    button{
+      position: absolute;
+      border: none;
+      background: none;
+      right: 25px;
+    }
+  }
+  ul{
+    li{
+      position: relative;
+      font-size: 16px;
+      font-weight: bold;
+      span.notificacao{
+        position: absolute;
+        top: -15px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+        color: #fff;
+        background-color: $rosa;
+        font-size: 10px;
+        border-radius: 100%;
+        font-weight: lighter;
+      }
+      a{
+        color: $cor-secundaria;
+        svg{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+}
+
