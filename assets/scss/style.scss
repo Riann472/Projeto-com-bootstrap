@@ -1,5 +1,23 @@
-/* Fonts */
+/* Fontes e variáveis */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75,300..800;1,75,300..800&family=Roboto:wght@100;300;400;900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import './bootstrap.min.scss';
 
+
+@import './variaveis.scss';
+/* RESET */
+body{
+    color: $cor-secundaria;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  
+  /* END RESET */
+
+/* Components */
+@import './header.scss';
 /* Bootstrap */
-@import './bootstrap.min.scss'
+@import './nav.scss';
+@import './banners.scss';
+@import './produtos.scss';
+@import './footer.scss';
